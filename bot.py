@@ -2,8 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.getenv("8450660558:AAE3Hoz-xp8tnyws34UbVbjm84KEcVH2xU4")  # توکن از سرور
-ADMIN_ID = 832244920  # آیدی عددی تلگرام خودت
+TOKEN = os.getenv("TOKEN")
+ADMIN_ID = 832244920
 
 # تابع قیمت پلکانی
 def get_price_per_gb(gb):
